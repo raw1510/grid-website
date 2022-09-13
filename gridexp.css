@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+    
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    /* border: 10px solid yellow; */
+    gap: 1rem;
+}
+.grid{
+    background-color: red;
+}
